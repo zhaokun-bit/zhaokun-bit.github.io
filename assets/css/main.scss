@@ -1,11 +1,13 @@
 ---
+# 💡 核心修复：这里必须包含至少一行内容，用来唤醒 Jekyll 的 CSS 编译引擎！
+# 这样系统才会真正去读取和同步你写在最底下的自定义字号。
 ---
 
 /*
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
