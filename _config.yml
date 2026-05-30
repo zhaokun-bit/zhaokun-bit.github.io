@@ -9,20 +9,20 @@
 # Basic Site Settings
 locale                    : "en-US"
 site_theme                : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zhaokun Chen"
-title_separator          : "-"
-name                     : &name "Zhaokun Chen"
-description              : &description "Academic homepage of Zhaokun Chen, Ph.D. candidate at Beijing Institute of Technology (BIT)."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://zhaokun-bit.github.io" # The base hostname & protocol for your site
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zhaokun-bit/zhaokun-bit.github.io"
+title                     : "Zhaokun Chen"
+title_separator           : "-"
+name                      : &name "Zhaokun Chen"
+description               : &description "Academic homepage of Zhaokun Chen, Ph.D. candidate at Beijing Institute of Technology (BIT)."
+url                       : "https://zhaokun-bit.github.io" # The base hostname & protocol for your site
+baseurl                   : "" # the subpath of your site, e.g. "/blog"
+repository                : "zhaokun-bit/zhaokun-bit.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #                If a field is blank the icon and link will not appear, otherwise it will be shown.
 #                Additional customization can be done by editing /_includes/author-profile.html
 author:
   name             : "Zhaokun Chen"
-  avatar           : "/images/4.jpg" # ⚠️ 请确保你的 images 文件夹内有一张完全同名且格式为 .jpg 的头像照片！
+  avatar           : "/images/4.jpg" # ⚠️ 请确保你的 images 文件夹内有一张完全同名且格式为小写 .jpg 的头像照片！
   bio              : "Ph.D. candidate at Beijing Institute of Technology (BIT)"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
@@ -30,7 +30,7 @@ author:
   email            : "zk.chen@bit.edu.cn"
   googlescholar    : "https://scholar.google.com/citations?user=Eoe9A9IAAAAJ&hl=zh-CN"
 
-  # Academic websites (已清除残留，填入链接即可激活)
+  # Academic websites (已完全清空残留，填入真实链接即可单独激活)
   academia          : # URL
   arxiv             : # URL
   googlescholar     : "https://scholar.google.com/citations?user=Eoe9A9IAAAAJ&hl=zh-CN"
@@ -52,7 +52,7 @@ author:
   kaggle            : # Username  
   stackoverflow     : # User number 
 
-  # Social media (已全部清空，彻底绝后患)
+  # Social media (已完全清空残留)
   artstation        : # Username
   bluesky           : # Username
   facebook          : # Username
