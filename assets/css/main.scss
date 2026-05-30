@@ -42,28 +42,40 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 🎓 自定义学术主页右侧主内容区字号（确保所有大标题大小完全一致） */
+/* 🎓 自定义学术主页右侧主内容区字号（强力拉平所有平级大标题） */
 .page__content {
   font-size: 0.9rem !important; /* 整体正文字号 */
-  
-  /* 🌟 终极修复：加入 #main h1, .page__title 等更精确的标签链，彻底击穿模板底层对 About Me 的特殊照顾 */
-  #main h1, 
-  .page__title, 
-  .archive__title, 
-  h1, 
-  h2 { 
-    font-size: 1.25rem !important; /* 👈 你的核心目标值：在这里统一控制这四个大标题的大小 */
+
+  /* 🚨 1. 针对顽固的 About Me 专属高优先级外壳进行强力打压 */
+  .page__title,
+  .archive__title,
+  .post__title,
+  #main h1,
+  > h1 {
+    font-size: 1.25rem !important; /* 👈 如果觉得 About Me 还是大，可以单独把这里的 1.25 改小到 1.2 或 1.15 */
     margin-top: 1.2rem !important;
     margin-bottom: 0.6rem !important;
-    font-weight: bold !important; /* 确保全员加粗平级 */
+    font-weight: bold !important;
   }
-  
-  h3 { 
-    font-size: 1.05rem !important; /* 更小一级的子标题 */
+
+  /* 🚨 2. 针对 News, Publications, Review Services 等普通的 h2 标题 */
+  h2, 
+  #main h2,
+  .archive__subtitle {
+    font-size: 1.25rem !important; /* 👈 保持和上面一致 */
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.6rem !important;
+    font-weight: bold !important;
   }
-  
-  p, li { 
-    font-size: 0.9rem !important; /* 正文字体大小统一 */
-    line-height: 1.6 !important; /* 保持精致行间距 */
+
+  /* 3. 三级子标题 */
+  h3 {
+    font-size: 1.05rem !important;
+  }
+
+  /* 4. 列表与正文 */
+  p, li {
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
   }
 }
