@@ -43,35 +43,23 @@
 ;
 
 /* ==========================================================================
-   🎓 终极视觉平级方案：通过差值补偿，强行扭转 About Me 和 News 的大小
+   🎓 纯净化学术风：统一收紧右侧所有标题与正文字号
    ========================================================================== */
 
-/* 🚨 1. 独立打压：把 About Me 以及顶层大标题强行控制在 1.15rem */
-.page__title, 
-.archive__title, 
-h1.page__title,
-.post__title {
-  font-size: 1.15rem !important; /* 👈 如果它依然显得大，把 1.15 降低到 1.1 或 1.05 */
-  margin-top: 1.0rem !important;
-  margin-bottom: 0.6rem !important;
-  font-weight: bold !important;
-}
-
-/* 🚨 2. 独立拉高：把 News, Publications, Review Services 等 h2 标题强行锚定在 1.25rem */
-h2, 
-.page__content h2,
-#main h2, 
-.archive__subtitle {
-  font-size: 1.35rem !important; /* 👈 这里的 1.25rem 是普通的 h2 样式 */
+/* 1. 统一 News, Publications, Review Services 等所有大标题的大小 */
+.page__content h2, 
+#main h2,
+h2 {
+  font-size: 1.2rem !important; /* 👈 以后你想让 News 等标题变大或变小，只改这一个数字就行 */
   margin-top: 1.5rem !important;
   margin-bottom: 0.6rem !important;
   font-weight: bold !important;
 }
 
-/* 🚨 3. 右侧全局正文和列表字号统一收紧 */
+/* 2. 统一右侧所有正文、列表、年份介绍的字号 */
 .page__content p, 
 .page__content li,
 .archive__item-excerpt {
-  font-size: 0.9rem !important;
+  font-size: 0.9rem !important; /* 保持精致清秀的字号 */
   line-height: 1.6 !important;
 }
