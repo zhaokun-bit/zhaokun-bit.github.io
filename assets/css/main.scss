@@ -1,6 +1,4 @@
 ---
-# 💡 核心修复：这里必须包含至少一行内容，用来唤醒 Jekyll 的 CSS 编译引擎！
-# 这样系统才会真正去读取和同步你写在最底下的自定义字号。
 ---
 
 /*
@@ -14,9 +12,11 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
+    
+/* 💡 注意：为了防止有些老模板因为后面的皮肤解析出错，我们在这里直接切断并强制导入基础皮肤，确保编译必成功 */
 
+@import
     "include/mixins",
     "vendor/susy/susy",
 
@@ -45,32 +45,26 @@
 ;
 
 /* ==========================================================================
-   🎓 终极全覆盖方案：无视标签，通过所有潜在类名强行缩小 News 等右侧标题
+   🎓 核心测试：如果编译成功，这里的 1.6rem 会让 News 变得非常巨大
    ========================================================================== */
 
-/* 🚨 1. 把全站所有可能用作右侧内容标题的类名和标签全部绑定，强制死锁在 1.0rem */
 h1, h2, h3,
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .archive__title,
 .archive__subtitle,
-.package-title,
 #main h1,
-#main h2,
-header h1,
-header h2 {
-  font-size: 1.5rem !important; /* 👈 核心控制：News、Publications 等所有大标题会一起变成这个大小 */
+#main h2 {
+  font-size: 1.6rem !important; /* 👈 我们故意把它开得很大（1.6rem），用来看它到底有没有生效 */
   margin-top: 1.5rem !important;
   margin-bottom: 0.6rem !important;
   font-weight: bold !important;
 }
 
-/* 🚨 2. 统一右侧所有正文、列表、年份介绍的字号 */
 .page__content p, 
 .page__content li,
-.archive__item-excerpt,
-.archive__item-teaser {
-  font-size: 0.9rem !important; /* 保持精致清秀的字号 */
+.archive__item-excerpt {
+  font-size: 0.9rem !important;
   line-height: 1.6 !important;
 }
