@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   name             : "Zhaokun Chen"
-  avatar           : "/images/bio-photo.jpg" # 你的头像路径，通常放在 images 文件夹下
+  avatar           : "/images/4.jpg" # 你的头像路径，通常放在 images 文件夹下
   bio              : "Ph.D. candidate at Beijing Institute of Technology (BIT)"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
