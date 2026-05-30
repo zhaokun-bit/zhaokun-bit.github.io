@@ -42,40 +42,36 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 🎓 自定义学术主页右侧主内容区字号（强力拉平所有平级大标题） */
-.page__content {
-  font-size: 0.9rem !important; /* 整体正文字号 */
+/* ==========================================================================
+   🎓 终极方案：彻底粉碎底层权重，强制拉平 About Me、News、Publications 
+   ========================================================================== */
 
-  /* 🚨 1. 针对顽固的 About Me 专属高优先级外壳进行强力打压 */
-  .page__title,
-  .archive__title,
-  .post__title,
-  #main h1,
-  > h1 {
-    font-size: 1.25rem !important; /* 👈 如果觉得 About Me 还是大，可以单独把这里的 1.25 改小到 1.2 或 1.15 */
-    margin-top: 1.2rem !important;
-    margin-bottom: 0.6rem !important;
-    font-weight: bold !important;
-  }
+/* 🚨 1. 强行把 About Me 的专属类名直接拉低到 1.25rem，并加 !important 轰炸 */
+.page__title, 
+.archive__title, 
+.post__title,
+h1.page__title,
+#main h1 {
+  font-size: 1.25rem !important; 
+  margin-top: 1.2rem !important;
+  margin-bottom: 0.6rem !important;
+  font-weight: bold !important;
+}
 
-  /* 🚨 2. 针对 News, Publications, Review Services 等普通的 h2 标题 */
-  h2, 
-  #main h2,
-  .archive__subtitle {
-    font-size: 1.25rem !important; /* 👈 保持和上面一致 */
-    margin-top: 1.5rem !important;
-    margin-bottom: 0.6rem !important;
-    font-weight: bold !important;
-  }
+/* 🚨 2. 强行把 News, Publications, Review Services 等 h2 标题也同步锁定在 1.25rem */
+h2, 
+#main h2, 
+.archive__subtitle {
+  font-size: 1.25rem !important; 
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.6rem !important;
+  font-weight: bold !important;
+}
 
-  /* 3. 三级子标题 */
-  h3 {
-    font-size: 1.05rem !important;
-  }
-
-  /* 4. 列表与正文 */
-  p, li {
-    font-size: 0.9rem !important;
-    line-height: 1.6 !important;
-  }
+/* 🚨 3. 右侧全局正文和列表字号统一微调 */
+.page__content p, 
+.page__content li,
+.archive__item-excerpt {
+  font-size: 0.9rem !important;
+  line-height: 1.6 !important;
 }
