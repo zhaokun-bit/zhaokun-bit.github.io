@@ -43,26 +43,32 @@
 ;
 
 /* ==========================================================================
-   🎓 纯净化学术风：统一收紧右侧所有标题与正文字号（加入h1全面控制）
+   🎓 终极全覆盖方案：无视标签，通过所有潜在类名强行缩小 News 等右侧标题
    ========================================================================== */
 
-/* 1. 统一 News, Publications, Review Services 等所有大标题的大小（不管它是 # 还是 ##） */
+/* 🚨 1. 把全站所有可能用作右侧内容标题的类名和标签全部绑定，强制死锁在 1.0rem */
+h1, h2, h3,
 .page__content h1,
-.page__content h2, 
+.page__content h2,
+.page__content h3,
+.archive__title,
+.archive__subtitle,
+.package-title,
 #main h1,
 #main h2,
-h1,
-h2 {
-  font-size: 0.9rem !important; /* 👈 核心：改变这个数字，News等所有大标题会一起变大或变小 */
+header h1,
+header h2 {
+  font-size: 1.0rem !important; /* 👈 核心控制：News、Publications 等所有大标题会一起变成这个大小 */
   margin-top: 1.5rem !important;
   margin-bottom: 0.6rem !important;
   font-weight: bold !important;
 }
 
-/* 2. 统一右侧所有正文、列表、年份介绍的字号 */
+/* 🚨 2. 统一右侧所有正文、列表、年份介绍的字号 */
 .page__content p, 
 .page__content li,
-.archive__item-excerpt {
+.archive__item-excerpt,
+.archive__item-teaser {
   font-size: 0.9rem !important; /* 保持精致清秀的字号 */
   line-height: 1.6 !important;
 }
