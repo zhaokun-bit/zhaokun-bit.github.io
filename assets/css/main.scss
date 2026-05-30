@@ -42,28 +42,24 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 🎓 自定义学术主页右侧主内容区字号（整体精致缩小版） */
+/* 🎓 自定义学术主页右侧主内容区字号（确保所有大标题大小完全一致） */
 .page__content {
-  font-size: 0.9rem !important; /* 进一步轻微收紧整体正文字号 */
+  font-size: 0.9rem !important; /* 整体正文字号 */
   
-  h1, .page__title { 
-    font-size: 1.45rem !important; /* 🌟 核心改动：把 About Me 这种最大标题明显缩小 */
-    margin-top: 1rem !important;
-    margin-bottom: 0.8rem !important;
-  }
-  
-  h2 { 
-    font-size: 1.25rem !important; /* 🌟 核心改动：把 News 这种二级标题明显缩小 */
+  /* 🌟 核心改动：把 h1 和 h2 绑定在一起，强制让 About Me、News、Publications、Review Services 大小绝对一致 */
+  h1, .page__title, h2 { 
+    font-size: 1.25rem !important; /* 你可以根据喜好微调这个值，比如 1.3rem */
     margin-top: 1.2rem !important;
     margin-bottom: 0.6rem !important;
+    font-weight: bold !important; /* 确保它们都是加粗的平级大标题效果 */
   }
   
   h3 { 
-    font-size: 1.05rem !important; /* 三级标题字号微调 */
+    font-size: 1.05rem !important; /* 更小一级的子标题 */
   }
   
   p, li { 
-    font-size: 0.92rem !important; /* 让正文段落和列表文字大小高度统一 */
-    line-height: 1.6 !important; /* 轻微拉大行间距，字变小后配合更宽的行距，视觉上会非常像国外顶尖实验室的极简风 */
+    font-size: 0.92rem !important; /* 正文字体大小统一 */
+    line-height: 1.6 !important; /* 保持精致行间距 */
   }
 }
