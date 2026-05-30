@@ -18,9 +18,13 @@ My recent works are mainly on:
 
 News
 ======
-* **2026.05:** Currently finalizing research visit frameworks and advancing VLM-based video temporal segmentation models.
-* **2026.04:** Thrilled to join Prof. Erik Cambria's research group at CCDS, Nanyang Technological University (NTU) as a visiting scholar! Heartfelt thanks to Shi Hui (Auyong) and Dr. Xulang for their invaluable coordination and support.
-* **Recent Update:** Our paper titled *"Driving Style Recognition Like an Expert Using Semantic Privileged Information from Large Language Models"* has been officially accepted!
+* 04/2026 – 1 paper accepted by IEEE Transactions on Intelligent Transportation Systems (TITS) (JCR Q1 / 中科院一区 TOP, IF: 8.4)
+* 09/2025 – 1 paper accepted by Accident Analysis & Prevention (AAP) (JCR Q1 / 中科院一区 TOP, IF: 6.2)
+* 08/2025 – 1 paper accepted by 2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC) (Oral)
+* 06/2024 – 1 paper accepted by 2024 IEEE Intelligent Vehicles Symposium (IV)
+* 03/2024 – 1 paper accepted by IEEE Transactions on Intelligent Transportation Systems (TITS) (JCR Q1 / 中科院一区 TOP, IF: 8.4)
+* 01/2024 – 1 paper accepted by IEEE Transactions on Intelligent Vehicles (TIV) (JCR Q1 / 中科院一区 TOP, IF: 14.3)
+* 05/2023 – 1 paper accepted by 2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems (ICPS)
 
 Selected Publications
 ======
