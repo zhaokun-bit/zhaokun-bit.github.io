@@ -31,6 +31,7 @@ Publications
 ======
 
 * `IEEE TITS` Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models, **Zhaokun Chen**, C Zhang, X Li, W Wang, G Venture, J Xi. *IEEE Transactions on Intelligent Transportation Systems*, 2026.
+* `Automotive Innovation` A Ranking-Guided Search Approach for Effective Feature Selection in Driving Style Recognition, **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Junqiang Xi. *Automotive Innovation*, 2025.
 * `AAP` A knowledge-integrated learning framework for accurate quantification and semantic interpretation of driving aggressiveness, **Zhaokun Chen**, W Wang, C Zhang, Y Tan, L Yang, J Xi. *Accident Analysis & Prevention*, 222, 108225, 2025.
 * `IHMSC 2025` The effects of communication delay on human performance and neurocognitive responses in mobile robot teleoperation, **Zhaokun Chen**, W Wang, W Liu, Y Liu, J Xi. *2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics*.
 * `IEEE TIV` An embedded driving style recognition approach: Leveraging knowledge in learning, C Zhang, W Wang, Z Ju, **Zhaokun Chen**, G Venture, J Xi. *IEEE Transactions on Intelligent Vehicles*, 9 (10), 6158-6171, 2024.
