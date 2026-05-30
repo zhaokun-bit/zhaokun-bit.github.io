@@ -22,15 +22,14 @@ repository               : "academicpages/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Zhaokun Chen"
+  avatar           : "/images/bio-photo.jpg" # 你的头像路径，通常放在 images 文件夹下
+  bio              : "Ph.D. candidate at Beijing Institute of Technology (BIT)"
+  location         : "Beijing, China"
+  employer         : "Beijing Institute of Technology"
+  uri              :
+  email            : "zk.chen@bit.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=Eoe9A9IAAAAJ&hl=zh-CN"
 
   # Academic websites
   academia         : # URL
