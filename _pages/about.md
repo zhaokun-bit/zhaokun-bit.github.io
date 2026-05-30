@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div style="font-size: 0.92rem !important; line-height: 1.6; color: #333;">
 
 I am a Ph.D. candidate at the Institute of Intelligent Vehicles, Beijing Institute of Technology (BIT), co-advised by Prof. [Junqiang Xi](https://me.bit.edu.cn/szdw/jsml/jlgcx/qjyjs/bssds2/63d2de6b125e44c79611affc9ee3cd22.htm) and Prof. [Wenshuo Wang](https://me.bit.edu.cn/szdw/jsml/jlgcx/qjyjs/bssds2/2d8f5fc4425a47a3825702106c0ef69d.htm). I received my bachelor’s degree from Harbin Institute of Technology (HIT) in 2022. I am currently a visiting scholar at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU), Singapore, working with Prof. [Erik Cambria](https://sentic.net/erikcambria/).
 
@@ -17,7 +16,7 @@ My recent works are mainly on:
 * Driving style analysis
 * Multimodal Large Language Models (LLMs)
 
-<h2 style="font-size: 1.15rem !important; font-weight: bold; margin-top: 1.8rem; margin-bottom: 0.6rem; color: #222; border-bottom: 1px solid #eee; padding-bottom: 5px;">News</h2>
+News
 ======
 * 04/2026 – 1 paper accepted by IEEE Transactions on Intelligent Transportation Systems (TITS) (JCR Q1/SCI 中科院一区 TOP IF: 8.4)
 * 01/2026 – 1 paper accepted by Automotive Innovation (JCR Q1/SCI 中科院二区 IF: 5.0)
@@ -28,7 +27,7 @@ My recent works are mainly on:
 * 01/2024 – 1 paper accepted by IEEE Transactions on Intelligent Vehicles (TIV) (JCR Q1/SCI 中科院一区 TOP IF: 14.3)
 * 05/2023 – 1 paper accepted by 2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems (ICPS)
 
-<h2 style="font-size: 1.15rem !important; font-weight: bold; margin-top: 1.8rem; margin-bottom: 0.6rem; color: #222; border-bottom: 1px solid #eee; padding-bottom: 5px;">Publications</h2>
+Publications
 ======
 
 * **Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models** <br> **Zhaokun Chen**, Chaopeng Zhang, Xiaohan Li, Wenshuo Wang, G Venture, Junqiang Xi. <br> *IEEE Transactions on Intelligent Transportation Systems*, 2026.
@@ -47,12 +46,12 @@ My recent works are mainly on:
 
 * **Scene-insensitive driving style recognition using CAN signals based on factor analysis** <br> Chaopeng Zhang, Wenshuo Wang, Jian Zhang, Ziyang Ju, **Zhaokun Chen**, Junqiang Xi. <br> *2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems*.
 
-<h2 style="font-size: 1.15rem !important; font-weight: bold; margin-top: 1.8rem; margin-bottom: 0.6rem; color: #222; border-bottom: 1px solid #eee; padding-bottom: 5px;">Review Services</h2>
+Review Services
 ======
 * Serving as a reviewer for *IEEE Transactions on Intelligent Transportation Systems* (TITS) (JCR Q1 / SCI 中科院一区 TOP, IF: 8.4)
 * Serving as a reviewer for *IEEE Transactions on Intelligent Vehicles* (TIV) (JCR Q1 / SCI 中科院一区 TOP, IF: 14.3)
 * Serving as a reviewer for *Accident Analysis & Prevention* (AAP) (JCR Q1 / SCI 中科院一区 TOP, IF: 6.2)
 * Serving as a reviewer for *Journal of Field Robotics* (JCR Q1 / SCI 中科院二区, IF: 5.2)
-</div> ```
+
 
 ---
