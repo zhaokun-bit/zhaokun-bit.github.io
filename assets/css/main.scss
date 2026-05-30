@@ -43,32 +43,32 @@
 ;
 
 /* ==========================================================================
-   🎓 终极方案：彻底粉碎底层权重，强制拉平 About Me、News、Publications 
+   🎓 终极视觉平级方案：通过差值补偿，强行扭转 About Me 和 News 的大小
    ========================================================================== */
 
-/* 🚨 1. 强行把 About Me 的专属类名直接拉低到 1.25rem，并加 !important 轰炸 */
+/* 🚨 1. 独立打压：把 About Me 以及顶层大标题强行控制在 1.15rem */
 .page__title, 
 .archive__title, 
-.post__title,
 h1.page__title,
-#main h1 {
-  font-size: 1.25rem !important; 
-  margin-top: 1.2rem !important;
+.post__title {
+  font-size: 1.15rem !important; /* 👈 如果它依然显得大，把 1.15 降低到 1.1 或 1.05 */
+  margin-top: 1.0rem !important;
   margin-bottom: 0.6rem !important;
   font-weight: bold !important;
 }
 
-/* 🚨 2. 强行把 News, Publications, Review Services 等 h2 标题也同步锁定在 1.25rem */
+/* 🚨 2. 独立拉高：把 News, Publications, Review Services 等 h2 标题强行锚定在 1.25rem */
 h2, 
+.page__content h2,
 #main h2, 
 .archive__subtitle {
-  font-size: 1.25rem !important; 
+  font-size: 1.25rem !important; /* 👈 这里的 1.25rem 是普通的 h2 样式 */
   margin-top: 1.5rem !important;
   margin-bottom: 0.6rem !important;
   font-weight: bold !important;
 }
 
-/* 🚨 3. 右侧全局正文和列表字号统一微调 */
+/* 🚨 3. 右侧全局正文和列表字号统一收紧 */
 .page__content p, 
 .page__content li,
 .archive__item-excerpt {
