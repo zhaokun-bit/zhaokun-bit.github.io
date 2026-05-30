@@ -46,12 +46,16 @@
 .page__content {
   font-size: 0.9rem !important; /* 整体正文字号 */
   
-  /* 🌟 核心改动：把 h1 和 h2 绑定在一起，强制让 About Me、News、Publications、Review Services 大小绝对一致 */
-  h1, .page__title, h2 { 
-    font-size: 1.25rem !important; /* 你可以根据喜好微调这个值，比如 1.3rem */
+  /* 🌟 终极修复：加入 #main h1, .page__title 等更精确的标签链，彻底击穿模板底层对 About Me 的特殊照顾 */
+  #main h1, 
+  .page__title, 
+  .archive__title, 
+  h1, 
+  h2 { 
+    font-size: 1.25rem !important; /* 👈 你的核心目标值：在这里统一控制这四个大标题的大小 */
     margin-top: 1.2rem !important;
     margin-bottom: 0.6rem !important;
-    font-weight: bold !important; /* 确保它们都是加粗的平级大标题效果 */
+    font-weight: bold !important; /* 确保全员加粗平级 */
   }
   
   h3 { 
