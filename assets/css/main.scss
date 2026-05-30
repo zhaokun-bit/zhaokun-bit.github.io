@@ -41,3 +41,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* 🎓 自定义学术主页右侧主内容区字号微调 */
+.page__content {
+  font-size: 0.95rem !important; /* 调整正文字体大小，默认通常是 1rem 或更高，这里将其轻微缩小 */
+  
+  h1, .page__title { font-size: 1.8rem !important; } /* About Me 大标题字号 */
+  h2 { font-size: 1.4rem !important; } /* News 等二级标题字号 */
+  h3 { font-size: 1.15rem !important; } /* 三级标题字号 */
+  
+  p, li { 
+    font-size: 0.95rem !important; /* 确保段落和列表项（研究方向、新闻列表）字号整齐一致 */
+    line-height: 1.55 !important; /* 稍微优化行间距，让整体阅读更松弛、透气 */
+  }
+}
