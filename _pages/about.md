@@ -19,6 +19,7 @@ My recent works are mainly on:
 News
 ======
 * 04/2026 – 1 paper accepted by IEEE Transactions on Intelligent Transportation Systems (TITS) (JCR Q1 / 中科院一区 TOP, IF: 8.4)
+* 01/2026 – 1 paper accepted by Automotive Innovation (JCR Q1 / 中科院二区, IF: 5.0)
 * 09/2025 – 1 paper accepted by Accident Analysis & Prevention (AAP) (JCR Q1 / 中科院一区 TOP, IF: 6.2)
 * 08/2025 – 1 paper accepted by 2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC) (Oral)
 * 06/2024 – 1 paper accepted by 2024 IEEE Intelligent Vehicles Symposium (IV)
