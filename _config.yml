@@ -22,7 +22,8 @@ repository                : "zhaokun-bit/zhaokun-bit.github.io"
 #                Additional customization can be done by editing /_includes/author-profile.html
 author:
   name             : "Zhaokun Chen"
-  avatar           : "images/4.jpg" # ⚠️ 请确保你的 images 文件夹内有一张完全同名且格式为小写 .jpg 的头像照片！
+  # 💡 终极改动：使用 GitHub 托管的官方网络绝对路径。彻底无视本地任何路径嵌套和解析 Bug
+  avatar           : "https://raw.githubusercontent.com/zhaokun-bit/zhaokun-bit.github.io/main/images/4.jpg"
   bio              : "Ph.D. candidate at Beijing Institute of Technology (BIT)"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
