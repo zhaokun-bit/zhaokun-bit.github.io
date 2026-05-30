@@ -30,11 +30,11 @@ News
 Publications
 ======
 
-* `IEEE TITS` Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models, **Zhaokun Chen**, C Zhang, X Li, W Wang, G Venture, J Xi. *IEEE Transactions on Intelligent Transportation Systems*, 2026.
-* `Automotive Innovation` A Ranking-Guided Search Approach for Effective Feature Selection in Driving Style Recognition, **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Junqiang Xi. *Automotive Innovation*, 2025.
-* `AAP` A knowledge-integrated learning framework for accurate quantification and semantic interpretation of driving aggressiveness, **Zhaokun Chen**, W Wang, C Zhang, Y Tan, L Yang, J Xi. *Accident Analysis & Prevention*, 222, 108225, 2025.
-* `IHMSC 2025` The effects of communication delay on human performance and neurocognitive responses in mobile robot teleoperation, **Zhaokun Chen**, W Wang, W Liu, Y Liu, J Xi. *2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics*.
-* `IEEE TIV` An embedded driving style recognition approach: Leveraging knowledge in learning, C Zhang, W Wang, Z Ju, **Zhaokun Chen**, G Venture, J Xi. *IEEE Transactions on Intelligent Vehicles*, 9 (10), 6158-6171, 2024.
-* `IEEE TITS` Shareable driving style learning and analysis with a hierarchical latent model, C Zhang, W Wang, **Zhaokun Chen**, J Zhang, L Sun, J Xi. *IEEE Transactions on Intelligent Transportation Systems*, 25 (9), 11471-11484, 2024.
-* `IEEE IV 2024` 100 Drivers, 2200 km: A Natural Dataset of Driving Style toward Human-centered Intelligent Driving Systems, C Zhang, W Wang, **Zhaokun Chen**, J Xi. *2024 IEEE Intelligent Vehicles Symposium (IV)*, 351-356.
-* `IEEE ICPS 2023` Scene-insensitive driving style recognition using CAN signals based on factor analysis, C Zhang, W Wang, J Zhang, Z Ju, **Zhaokun Chen**, J Xi. *2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems*.
+* Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models, **Zhaokun Chen**, Chaopeng Zhang, Xiaohan Li, Wenshuo Wang, G Venture, Junqiang Xi. *IEEE Transactions on Intelligent Transportation Systems*, 2026.
+* A Ranking-Guided Search Approach for Effective Feature Selection in Driving Style Recognition, **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Junqiang Xi. *Automotive Innovation*, 2025.
+* A knowledge-integrated learning framework for accurate quantification and semantic interpretation of driving aggressiveness, **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Yinqi Tan, Lu Yang, Junqiang Xi. *Accident Analysis & Prevention*, 222, 108225, 2025.
+* The effects of communication delay on human performance and neurocognitive responses in mobile robot teleoperation, **Zhaokun Chen**, Wenshuo Wang, Wenzhuo Liu, Yichen Liu, Junqiang Xi. *2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics*.
+* An embedded driving style recognition approach: Leveraging knowledge in learning, Chaopeng Zhang, Wenshuo Wang, Ziyang Ju, **Zhaokun Chen**, G Venture, Junqiang Xi. *IEEE Transactions on Intelligent Vehicles*, 9 (10), 6158-6171, 2024.
+* Shareable driving style learning and analysis with a hierarchical latent model, Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Jian Zhang, Lijun Sun, Junqiang Xi. *IEEE Transactions on Intelligent Transportation Systems*, 25 (9), 11471-11484, 2024.
+* 100 Drivers, 2200 km: A Natural Dataset of Driving Style toward Human-centered Intelligent Driving Systems, Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Junqiang Xi. *2024 IEEE Intelligent Vehicles Symposium (IV)*, 351-356.
+* Scene-insensitive driving style recognition using CAN signals based on factor analysis, Chaopeng Zhang, Wenshuo Wang, Jian Zhang, Ziyang Ju, **Zhaokun Chen**, Junqiang Xi. *2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems*.
