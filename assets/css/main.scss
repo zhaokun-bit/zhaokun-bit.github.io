@@ -44,7 +44,7 @@
 
 /* 🎓 自定义学术主页右侧主内容区字号（确保所有大标题大小完全一致） */
 .page__content {
-  font-size: 0.8rem !important; /* 整体正文字号 */
+  font-size: 0.9rem !important; /* 整体正文字号 */
   
   /* 🌟 核心改动：把 h1 和 h2 绑定在一起，强制让 About Me、News、Publications、Review Services 大小绝对一致 */
   h1, .page__title, h2 { 
@@ -59,7 +59,7 @@
   }
   
   p, li { 
-    font-size: 0.82rem !important; /* 正文字体大小统一 */
+    font-size: 0.92rem !important; /* 正文字体大小统一 */
     line-height: 1.6 !important; /* 保持精致行间距 */
   }
 }
