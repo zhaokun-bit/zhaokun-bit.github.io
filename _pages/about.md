@@ -30,34 +30,18 @@ News
 Publications
 ======
 
-* **Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models**
-  **Zhaokun Chen**, Chaopeng Zhang, Xiaohan Li, Wenshuo Wang, G Venture, Junqiang Xi.
-  *IEEE Transactions on Intelligent Transportation Systems*, 2026.
+* **Driving Style Recognition Like an Expert Using Semantic Privileged Information From Large Language Models** <br> **Zhaokun Chen**, Chaopeng Zhang, Xiaohan Li, Wenshuo Wang, G Venture, Junqiang Xi. <br> *IEEE Transactions on Intelligent Transportation Systems*, 2026.
 
-* **A Ranking-Guided Search Approach for Effective Feature Selection in Driving Style Recognition**
-  **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Junqiang Xi.
-  *Automotive Innovation*, 2026.
+* **A Ranking-Guided Search Approach for Effective Feature Selection in Driving Style Recognition** <br> **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Junqiang Xi. <br> *Automotive Innovation*, 2026.
 
-* **A knowledge-integrated learning framework for accurate quantification and semantic interpretation of driving aggressiveness**
-  **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Yinqi Tan, Lu Yang, Junqiang Xi.
-  *Accident Analysis & Prevention*, 222, 108225, 2025.
+* **A knowledge-integrated learning framework for accurate quantification and semantic interpretation of driving aggressiveness** <br> **Zhaokun Chen**, Wenshuo Wang, Chaopeng Zhang, Yinqi Tan, Lu Yang, Junqiang Xi. <br> *Accident Analysis & Prevention*, 222, 108225, 2025.
 
-* **The effects of communication delay on human performance and neurocognitive responses in mobile robot teleoperation**
-  **Zhaokun Chen**, Wenshuo Wang, Wenzhuo Liu, Yichen Liu, Junqiang Xi.
-  *2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics*.
+* **The effects of communication delay on human performance and neurocognitive responses in mobile robot teleoperation** <br> **Zhaokun Chen**, Wenshuo Wang, Wenzhuo Liu, Yichen Liu, Junqiang Xi. <br> *2025 17th International Conference on Intelligent Human-Machine Systems and Cybernetics*.
 
-* **An embedded driving style recognition approach: Leveraging knowledge in learning**
-  Chaopeng Zhang, Wenshuo Wang, Ziyang Ju, **Zhaokun Chen**, G Venture, Junqiang Xi.
-  *IEEE Transactions on Intelligent Vehicles*, 9 (10), 6158-6171, 2024.
+* **An embedded driving style recognition approach: Leveraging knowledge in learning** <br> Chaopeng Zhang, Wenshuo Wang, Ziyang Ju, **Zhaokun Chen**, G Venture, Junqiang Xi. <br> *IEEE Transactions on Intelligent Vehicles*, 9 (10), 6158-6171, 2024.
 
-* **Shareable driving style learning and analysis with a hierarchical latent model**
-  Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Jian Zhang, Lijun Sun, Junqiang Xi.
-  *IEEE Transactions on Intelligent Transportation Systems*, 25 (9), 11471-11484, 2024.
+* **Shareable driving style learning and analysis with a hierarchical latent model** <br> Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Jian Zhang, Lijun Sun, Junqiang Xi. <br> *IEEE Transactions on Intelligent Transportation Systems*, 25 (9), 11471-11484, 2024.
 
-* **100 Drivers, 2200 km: A Natural Dataset of Driving Style toward Human-centered Intelligent Driving Systems**
-  Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Junqiang Xi.
-  *2024 IEEE Intelligent Vehicles Symposium (IV)*, 351-356.
+* **100 Drivers, 2200 km: A Natural Dataset of Driving Style toward Human-centered Intelligent Driving Systems** <br> Chaopeng Zhang, Wenshuo Wang, **Zhaokun Chen**, Junqiang Xi. <br> *2024 IEEE Intelligent Vehicles Symposium (IV)*, 351-356.
 
-* **Scene-insensitive driving style recognition using CAN signals based on factor analysis**
-  Chaopeng Zhang, Wenshuo Wang, Jian Zhang, Ziyang Ju, **Zhaokun Chen**, Junqiang Xi.
-  *2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems*.
+* **Scene-insensitive driving style recognition using CAN signals based on factor analysis** <br> Chaopeng Zhang, Wenshuo Wang, Jian Zhang, Ziyang Ju, **Zhaokun Chen**, Junqiang Xi. <br> *2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems*.
