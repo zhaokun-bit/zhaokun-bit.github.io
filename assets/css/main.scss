@@ -68,3 +68,40 @@ h1, h2, h3,
   font-size: 0.9rem !important;
   line-height: 1.6 !important;
 }
+
+/* 强行让侧边栏组件在窄屏/全屏下保持完美的居中对齐 */
+.sidebar {
+  text-align: center !important;
+
+  /* 让头像在容器内居中 */
+  .author__avatar {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* 让位置、学校、Email等小图标和文字列表也整体居中 */
+  .author__urls-wrapper {
+    ul {
+      display: inline-block;
+      text-align: left; /* 让列表文字本身靠左，但列表整体在主页居中，这样最美观 */
+    }
+  }
+}
+
+/* 取消侧边栏的独立滚动条，使其高度随内容自适应 */
+.sidebar {
+  overflow: visible !important; 
+  max-height: none !important;
+  position: relative !important; /* 如果是在手机端，取消其粘性固定定位 */
+}
+
+/* 针对电脑端如果依然不想让它有任何滑动视感 */
+@media (min-width: 64em) {
+  .sidebar {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 2em !important;
+  }
+}
+
