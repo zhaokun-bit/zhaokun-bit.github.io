@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                    : "en-US"
 site_theme                : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                     : "Zhaokun Chen（陈炤锟）" # 这样浏览器标签页也会显示中文名
+title                     : "Zhaokun Chen（陈炤锟）" # 💡 
 title_separator           : "-"
-name                      : &name "Zhaokun Chen（陈炤锟）" # 核心修改：控制侧边栏大标题
+name                      : &name "Zhaokun Chen" # 💡 
 description               : &description "Academic homepage of Zhaokun Chen, Ph.D. candidate at Beijing Institute of Technology (BIT)."
 url                       : "https://zhaokun-bit.github.io" # The base hostname & protocol for your site
 baseurl                   : "" # the subpath of your site, e.g. "/blog"
@@ -19,7 +19,7 @@ repository                : "zhaokun-bit/zhaokun-bit.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
-  name             : "Zhaokun Chen（陈炤锟）" # 核心修改：确保作者属性同步更新
+  name             : "Zhaokun Chen" # 💡 同步改回纯英文
   avatar           : "https://raw.githubusercontent.com/zhaokun-bit/zhaokun-bit.github.io/main/images/4.jpg"
   bio              : "Ph.D. candidate at Beijing Institute of Technology (BIT)"
   location         : "Beijing, China"
