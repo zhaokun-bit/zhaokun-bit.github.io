@@ -47,7 +47,7 @@ Publications
 
 Review Services
 ======
-* Serving as a reviewer for *IEEE Transactions on Intelligent Transportation Systems* (TITS) (JCR Q1 / SCI 中科院一区 TOP, IF: 8.4)
-* Serving as a reviewer for *IEEE Transactions on Intelligent Vehicles* (TIV) (JCR Q1 / SCI 中科院一区 TOP, IF: 14.3)
-* Serving as a reviewer for *Accident Analysis & Prevention* (AAP) (JCR Q1 / SCI 中科院一区 TOP, IF: 6.2)
-* Serving as a reviewer for *Journal of Field Robotics* (JCR Q1 / SCI 中科院二区, IF: 5.2)
+* IEEE Transactions on Intelligent Transportation Systems (TITS)
+* IEEE Transactions on Intelligent Vehicles (TIV)
+* Accident Analysis & Prevention (AAP) 
+* Journal of Field Robotics
