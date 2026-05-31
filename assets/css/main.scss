@@ -69,39 +69,38 @@ h1, h2, h3,
   line-height: 1.6 !important;
 }
 
-/* 强行让侧边栏组件在窄屏/全屏下保持完美的居中对齐 */
-.sidebar {
+/* ==========================================================================
+   强制侧边栏全屏/全分辨率下头像与文字完美居中对齐
+   ========================================================================== */
+
+/* 1. 强行将大标题和 bio 文本居中 */
+.author__name, 
+.author__bio,
+.author__urls-wrapper {
   text-align: center !important;
-
-  /* 让头像在容器内居中 */
-  .author__avatar {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  /* 让位置、学校、Email等小图标和文字列表也整体居中 */
-  .author__urls-wrapper {
-    ul {
-      display: inline-block;
-      text-align: left; /* 让列表文字本身靠左，但列表整体在主页居中，这样最美观 */
-    }
-  }
 }
 
-/* 取消侧边栏的独立滚动条，使其高度随内容自适应 */
+/* 2. 强行将头像居中（解决你看到的“头像和名字对不齐”的核心） */
+.author__avatar {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important; /* 消除某些分辨率下主题自带的左浮动 */
+}
+
+/* 3. 让头像下面的图片包裹层也取消浮动和靠左 */
+.sidebar .author__avatar img {
+  margin: 0 auto !important;
+}
+
+/* 4. 针对社交链接列表（Email, Scholar 等）的居中优化 */
+.author__urls {
+  display: inline-block !important; /* 让整个列表容器变成块级行内元素，从而在父级居中 */
+  text-align: left !important;      /* 列表内部的图标和文字依然保持左对齐，确保整齐 */
+}
+
+/* 5. 强行撑满宽度，防止因为宽度缩进导致的不对称 */
 .sidebar {
-  overflow: visible !important; 
-  max-height: none !important;
-  position: relative !important; /* 如果是在手机端，取消其粘性固定定位 */
-}
-
-/* 针对电脑端如果依然不想让它有任何滑动视感 */
-@media (min-width: 64em) {
-  .sidebar {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 2em !important;
-  }
+  width: 100% !important;
 }
 
