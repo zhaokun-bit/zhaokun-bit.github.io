@@ -50,4 +50,4 @@ Review Services
 * IEEE Transactions on Intelligent Transportation Systems (TITS)
 * IEEE Transactions on Intelligent Vehicles (TIV)
 * Accident Analysis & Prevention (AAP) 
-* Journal of Field Robotics
+* Journal of Field Robotics (JFR)
